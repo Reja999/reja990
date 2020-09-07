@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.nav_style{
+	background: #fff;
+	box-shadow: 0 10px 30px 0 rgba(138,155,165,0.15)
+}
+.navbar-brand img{
+	width: 80px;
+	height: 40px;
+   
+}
+.navbar-nav li a{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #333;
+	position: relative;
+
+}
+
+.navbar-nav li a:before{
+	content: '';
+	position: absolute;
+	top: 100%;
+	bottom: 50%;
+	width: 0%;
+	height:3%;
+	background: #ff7230;
+	transition: all 0.3s linear;
+}
+.navbar-nav li a:hover:before{
+	width: 75%;
+	
+
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #ff7230 !important;
+}
+@media(max-width: 998px){
+	.navbar-nav{
+		margin-top: 40px;
+		text-align: center;
+     }
+     .navbar-nav li a:hover:before{
+	width:0%;
+    }
+    
+
+ }
+.header_text{
+	font-size:36px;
+	color:#8c8c8c;
+	margin-top: 50px;
+	font-weight: 600px; 
+}
+.text_colour{
+	color: #ff7230;
+}
+.header_text2{
+	margin-top:40px;
+	letter-spacing: 1.5px;
+	font-weight: 700px;
+	font-size: 18px;
+	color:#8c8c8c;
+    justify-content: center;
+}
+.hire_me{
+	width: 140px;
+	height: 40px;
+	background:#ff7230;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	outline: none;
+	border: none;
+	border-radius: 33px;
+	transition: all 0.3s linear; 
+    -webkit-transition: all 0.3s linear;
+
+}
+.about_me{
+	width: 140px;
+	height: 40px;
+	color: #ff7230;
+	font-size: 18px;
+	background: #fff;
+	text-transform: uppercase;
+	outline: none;
+	border: 1px solid #ff7230;
+	border-radius: 33px;
+	transition: all 0.3s linear; 
+    -webkit-transition: all 0.3s linear;
+
+}
+.hire_me:hover{
+	background: #fff;
+	color: #ff7230;
+	border: 1px solid #ff7230;
+	border-radius: 33px;
+}
+.about_me:hover{
+	background:#ff7230;
+	color: #fff;
+	border: none;
+}
+.king{
+	margin-top: 30px;
+}
+.about_section{
+	padding-top: 50px;
+	
+
+}
+.about_img{
+	height: 400px;
+	width: 500px;
+	justify-content: center;
+
+}
+.main_title h1{
+        font-weight: 500;
+        font-size: 50px;
+        color: #000;
+        text-transform: capitalize;
+        text-align: center;
+        font-family: poppins;
+}
+.about_text{
+	margin-top: -30px;
+}
+.about_text h1{
+	font-size: 33px;
+	color: #000;
+	padding-left:40px;
+	text-transform: capitalize;
+	padding-bottom: 30px;
+	font-family: poppins;
+	letter-spacing: 1.5px;
+	padding-top: 20px;
+}
+.about_text p{
+	font-size: 20px;
+	color: #8c8c8c;
+	padding-left:40px;
+	font-family: muli;
+	font-weight: 500;
+
+}
+.expart_section{
+	padding-top: 70px;
+}
+
+.main_title p{
+	padding-top: -20px;
+	font-size: 20px;
+	color: #8c8c8c;
+	font-family: muli;
+	font-weight: 500;
+}
+.common_div{
+	margin-top: 70px;
+	
+}
+.img_exe img{
+      height: 400px;
+      width: 600px;
+      top: -10px;
+  }
+.expart_section .progress {
+   width: 90%;
+   height: 10px;
+   border-radius: 10px;
+}	
+.expart_section .pb_1{
+	width: 91%;
+	border-radius: 7px;
+	background-color: #ea2148;
+}
+.expart_section .pb_2{
+	width: 82%;
+	border-radius: 7px;
+	background-color: #1c9588;
+}
+.expart_section .pb_3{
+	width: 84%;
+	border-radius: 7px;
+	background-color: #ff7230;
+}
+.expart_section .pb_4{
+	width: 70%;
+	border-radius: 7px;
+	background-color: #eb2168;
+}
+.expart_section h2{
+	position: relative;
+	font-size: 20px;
+	font-family: muli;
+	text-transform: capitalize;
+
+}
+.expart_h1:after{
+	content: '93%';
+	position: absolute;
+	right: 13%;
+	top: 10px;
+	color: #000;
+	font-size: 500;
+}
+.expart_h2:after{
+	content: '82%';
+	position: absolute;
+	right: 13%;
+	top: 10px;
+	color: #000;
+	font-size: 500;
+}
+.expart_h3:after{
+	content: '83%';
+	position: absolute;
+	right: 13%;
+	top: 10px;
+	color: #000;
+	font-size: 500;
+}
+.expart_h4:after{
+	content: '70%';
+	position: absolute;
+	right: 13%;
+	top: 10px;
+	color: #000;
+	font-size: 500;
+}
+.our_services{
+	padding: 50px 0px 70px 0px;
+}
+.services_div {
+	border-radius: #f6f6f6;
+	padding: 20px 0px 50px 10px;
+	padding-top: 50px;
+	transition: all 0.1s; 
+	left: 10%;
+	position: relative;
+	box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+}
+.services_div:hover{
+	background: #fff;
+	box-shadow: 0 0 4px 1px grey;
+}
